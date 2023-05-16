@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book ticket's party</title>
+    <!-- CSS Libs -->
+
+    <!-- font awesome's link-->
+    <link rel="stylesheet" href="./libs/css-libs/all.min.css">
+
+    <!-- Bootstrap's link-->
+    <link rel="stylesheet" href="./libs/css-libs/bootstrap.min.css">
+
+    <!-- my CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- settings part -->
+    <div class="settings">
+        <div class="parent d-flex flex-column ">
+            <a href="#home" class="m-3">
+                <i>Home</i>
+            </a>
+            <a href="#duration" class="m-3">
+                <i>Duration</i>
+            </a>
+            <a href="#details" class="m-3">
+                <i>Details</i>
+            </a>
+            <a href="#contactUs" class="m-3">
+                <i>contact</i>
+            </a>
+            <button class="d-flex justify-content-center align-items-center " id="btn-settings">
+                <i class="fa-solid fa-gear"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Party back ground section -->
+    <section id="home" class="party d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h1>Egyption Party</h1>
+            <small>Let's have fun</small>
+        </div>
+    </section>
+    <!-- End Party back ground section -->
+
+    <!-- Duration Section -->
+    <section class="duration" id="duration">
+        <div class="container-fluid p-sm-5">
+            <div class="container p-sm-5 p-2">
+                <div class="parent ">
+                    <div class="item text-center">
+                        <button class="py-2">Singer One
+                        </button>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, nisi quisquam! Pariatur
+                            debitis accusantium saepe vel. Deleniti alias aut quasi odio officiis illum quibusdam porro,
+                            iure velit, est accusantium architecto.
+                        </p>
+                    </div>
+                    <div class="item text-center">
+                        <button class="py-2">Singer Two
+                        </button>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos recusandae
+                            iure. Quos, cum natus, soluta officia quam inventore praesentium blanditiis incidunt
+                            assumenda minima, nulla similique sequi nihil vitae corporis doloremque fugit quae. Quaerat
+                            dicta excepturi debitis illum dolores repudiandae perferendis quas, nam necessitatibus
+                            commodi! Vero vel soluta nesciunt reiciendis?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos recusandae
+                            iure. Quos, cum natus, soluta officia quam inventore praesentium blanditiis incidunt
+                            assumenda minima, nulla similique sequi nihil vitae corporis doloremque fugit quae. Quaerat
+                            dicta excepturi debitis illum dolores repudiandae perferendis quas, nam necessitatibus
+                            commodi! Vero vel soluta nesciunt reiciendis?
+                        </p>
+                    </div>
+                    <div class="item text-center">
+                        <button class="py-2">Singer Three
+                        </button>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos recusandae
+                            iure. Quos, cum natus, soluta officia quam inventore praesentium blanditiis incidunt
+                        </p>
+                    </div>
+                    <div class="item text-center">
+                        <button class="py-2">Singer Four
+                        </button>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos recusandae
+                            iure. Quos, cum natus, soluta officia quam inventore praesentium blanditiis incidunt
+                            assumenda minima, nulla similique sequi nihil vitae corporis doloremque fugit quae. Quaerat
+                            dicta excepturi debitis illum dolores repudiandae perferendis quas, nam necessitatibus
+                            commodi! Vero vel soluta nesciunt reiciendis?
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos recusandae
+                            iure. Quos, cum natus, soluta officia quam inventore praesentium blanditiis incidunt
+                            assumenda minima, nulla similique sequi nihil vitae corporis doloremque fugit quae. Quaerat
+                            dicta excepturi debitis illum dolores repudiandae perferendis quas, nam necessitatibus
+                            commodi! Vero vel soluta nesciunt reiciendis?
+                            iure. Quos, cum natus, soluta officia quam inventore praesentium blanditiis incidunt
+                            assumenda minima, nulla similique sequi nihil vitae corporis doloremque fugit quae. Quaerat
+                            dicta excepturi debitis illum dolores repudiandae perferendis quas, nam necessitatibus
+                            commodi! Vero vel soluta nesciunt reiciendis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Duration Section -->
+
+    <!-- Start Counter Section -->
+    <section class="counter" id="details">
+        <div class="container-fluid p-sm-5">
+            <div class="container p-sm-5 py-5">
+                <div class="parent d-flex flex-wrap justify-content-around">
+                    <div class="item  d-flex justify-content-center align-items-center">
+                        <span id="day"></span>
+                    </div>
+                    <div class="item  d-flex justify-content-center align-items-center">
+                        <span id="hour"></span>
+                    </div>
+                    <div class="item  d-flex justify-content-center align-items-center">
+                        <span id="minute"></span>
+                    </div>
+                    <div class="item  d-flex justify-content-center align-items-center">
+                        <span id="second"></span>
+                    </div>
+                </div>
+                <h1 class="text-center mt-5 text-white">Event time</h1>
+            </div>
+        </div>
+    </section>
+    <!-- End Counter Section -->
+
+    <section class="contact-us" id="contactUs">
+        <div class="container-fluid">
+            <div class="container px-sm-5">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="parent">
+                            <h2 class="mb-3">JOIN US</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, praesentium!</p>
+                            <h2 class="mb-3">CONTACT INFO</h2>
+                            <p class="mb-5">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus
+                                mus.
+                            </p>
+                            <div class="mb-4">
+                                <i class="fa-solid fa-map-location me-3"></i>
+                                <span> New Street 22545, Nexa Road, New York City, USA</span>
+                            </div>
+                            <div class="mb-4">
+                                <i class="fa-regular fa-envelope me-3"></i>
+                                <span>  hello@uigrid.com</span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-phone me-3"></i>
+                                <span>  001-000-000-000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="parent">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <textarea name="message" id="user-message" cols="30" rows="10"></textarea>
+                            <div class="mb-2">
+                                <span id="count-available">100</span>
+                                <span>Characyer Reamining</span>
+                            </div>
+                            <button>Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JS Libs -->
+
+    <!-- Bootstrap JS -->
+    <script src="./libs/js-libs/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/mian.js"></script>
+</body>
+</body>
+
+</html>
